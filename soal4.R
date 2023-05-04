@@ -22,6 +22,6 @@ plot(x)
 #b. histogram
 hist(x, breaks = 50)
 
-#c. standar deviasi
-standardDev <- sd(x)
-cat("Standard Deviasi: ", standardDev, "\n")
+#c. varian
+varian <- var(x)
+cat("varian: ", varian, "\n")
